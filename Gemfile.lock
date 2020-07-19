@@ -16,8 +16,7 @@ GEM
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    rake (12.3.2)
-    regexp_parser (1.7.1)
+    rake (12.3.3)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -35,9 +34,6 @@ GEM
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
-    watir (6.16.5)
-      regexp_parser (~> 1.2)
-      selenium-webdriver (~> 3.6)
 
 PLATFORMS
   ruby
@@ -46,9 +42,9 @@ DEPENDENCIES
   euro_travel!
   nokogiri (~> 1.10, >= 1.10.10)
   pry (~> 0.13.1)
-  rake (~> 12.0)
+  rake (~> 12.3)
   rspec (~> 3.0)
-  watir
+  selenium-webdriver
 
 BUNDLED WITH
    2.1.4
