@@ -22,7 +22,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/euro_travel.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ems-codes/euro_travel_scraper.
 
 ## License
 
