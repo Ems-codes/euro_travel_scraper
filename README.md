@@ -10,9 +10,9 @@ Welcome to the EuroTravel scraper. This app accesses information from the Re-ope
 
 run "ruby bin/euro_travel" to begin using app 
 For Windows WSL:Ubuntu users: 
-    - install chromedriver to your local device https://chromedriver.chromium.org/
-    - update the URL in the euro_travel_parser class on line 16  if needed
-    - run chromedriver through your local windows command line to connect with WSL:Ubuntu
+    1) install chromedriver to your local device https://chromedriver.chromium.org/ 
+    2) update the URL in the euro_travel_parser class on line 16  if needed 
+    3) run chromedriver through your local windows command line to connect with WSL:Ubuntu 
 
 ## Development
 
