@@ -1,28 +1,18 @@
 # EuroTravel
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/euro_travel`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Welcome to the EuroTravel scraper. This app accesses information from the Re-open EU travel site and provides up to date information on the current travel restrictions within the European continent as countries reopen during the Covid-19 pandemic. Users can interact with this information through a CLI. 
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'euro_travel'
-```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
 
     $ gem install euro_travel
 
 ## Usage
 
-TODO: Write usage instructions here
+run "ruby bin/euro_travel" to begin using app 
+For Windows WSL:Ubuntu users: 
+    - install chromedriver to your local device https://chromedriver.chromium.org/
+    - update the URL in the euro_travel_parser class on line 16  if needed
+    - run chromedriver through your local windows command line to connect with WSL:Ubuntu
 
 ## Development
 
@@ -33,7 +23,6 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/euro_travel.
-
 
 ## License
 
